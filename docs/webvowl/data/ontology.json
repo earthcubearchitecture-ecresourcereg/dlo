@@ -1,0 +1,308 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en-us", "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://www.opendatacommons.org/licenses", "http://www.w3.org/2000/01/rdf-schema", "http://creativecommons.org/ns", "https://www.opendatacommons.org/licenses/pddl", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "https://www.opendatacommons.org/licenses/by", "http://cor.esipfed.org/ont" ],
+    "iri" : "http://cor.esipfed.org/ont/earthcube/dlo",
+    "labels" : {
+      "en" : "Data Licenses Ontology"
+    },
+    "comments" : {
+      "en" : "This mini-ontology contains instances for each version of the licenses from the Open Data Commons."
+    },
+    "other" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "en",
+        "value" : "2019-03-06T00:50:17Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://cor.esipfed.org/ont/DLO_0000001",
+    "baseIri" : "http://cor.esipfed.org/ont",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-07-04T19:39:07Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DLO_0000001",
+      "en" : "Data licenses"
+    },
+    "subClasses" : [ "2", "3", "4" ],
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://www.opendatacommons.org/licenses/pddl/1.0/",
+    "baseIri" : "https://www.opendatacommons.org/licenses/pddl",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-07-04T19:40:11Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "en" : "ODC Public Domain Dedication and Licence (PDDL)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://www.opendatacommons.org/licenses/odbl/",
+    "baseIri" : "https://www.opendatacommons.org/licenses",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-07-04T19:42:34Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "en" : "Open Data Commons Open Database License (ODbL)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "7",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.org/dc/terms/LicenseDocument",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-07-03T20:02:20Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LicenseDocument"
+    },
+    "subClasses" : [ "0" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://www.opendatacommons.org/licenses/by/1.0/",
+    "baseIri" : "https://www.opendatacommons.org/licenses/by",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-07-04T19:41:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "en" : "Open Data Commons Attribution License (ODC-By) v1.0"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "0" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://creativecommons.org/ns#prohibits",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "prohibits",
+      "en-us" : "prohibits"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "6"
+  }, {
+    "range" : "0",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://creativecommons.org/ns#license",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "license"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://creativecommons.org/ns#jurisdiction",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "jurisdiction",
+      "en-us" : "jurisdiction"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "11"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://creativecommons.org/ns#requires",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "requires",
+      "en-us" : "requires"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://creativecommons.org/ns#permits",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "permits",
+      "en-us" : "permits"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://creativecommons.org/ns#deprecatedOn",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "deprecatedOn",
+      "en-us" : "deprecated\n\t\t  on"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://creativecommons.org/ns#legalcode",
+    "baseIri" : "http://creativecommons.org/ns",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "legalcode"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "16"
+  } ]
+}

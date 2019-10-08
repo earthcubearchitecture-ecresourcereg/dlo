@@ -1,0 +1,237 @@
+@prefix : <http://cor.esipfed.org/ont/earthcube/dlo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://cor.esipfed.org/ont/earthcube/dlo> .
+
+<http://cor.esipfed.org/ont/earthcube/dlo> rdf:type owl:Ontology ;
+                                            <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0003-4808-4736> ;
+                                            <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-03-06T00:50:17Z"@en ;
+                                            rdfs:comment "This mini-ontology contains instances for each version of the licenses from the Open Data Commons."@en ;
+                                            rdfs:label "Data Licenses Ontology"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty ;
+                                        rdfs:subPropertyOf <http://purl.org/dc/terms/license> ;
+                                        rdfs:range <http://creativecommons.org/ns#License> .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/relation
+<http://purl.org/dc/terms/relation> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+<http://www.geneontology.org/formats/oboInOwl#SubsetProperty> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty
+<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#auto-generated-by
+<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#consider
+<http://www.geneontology.org/formats/oboInOwl#consider> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#date
+<http://www.geneontology.org/formats/oboInOwl#date> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#default-namespace
+<http://www.geneontology.org/formats/oboInOwl#default-namespace> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
+<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion
+<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasSynonymType
+<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#id
+<http://www.geneontology.org/formats/oboInOwl#id> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#inSubset
+<http://www.geneontology.org/formats/oboInOwl#inSubset> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_class_level
+<http://www.geneontology.org/formats/oboInOwl#is_class_level> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_inferred
+<http://www.geneontology.org/formats/oboInOwl#is_inferred> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_metadata_tag
+<http://www.geneontology.org/formats/oboInOwl#is_metadata_tag> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#saved-by
+<http://www.geneontology.org/formats/oboInOwl#saved-by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#shorthand
+<http://www.geneontology.org/formats/oboInOwl#shorthand> rdf:type owl:AnnotationProperty .
+
+
+###  owl:deprecated
+<owl:deprecated> rdf:type owl:AnnotationProperty .
+
+
+###  rdfs:comment
+<rdfs:comment> rdf:type owl:AnnotationProperty .
+
+
+###  rdfs:label
+<rdfs:label> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://creativecommons.org/ns#deprecatedOn
+<http://creativecommons.org/ns#deprecatedOn> rdf:type owl:ObjectProperty ;
+                                             rdfs:label """deprecated
+		  on"""@en-us .
+
+
+###  http://creativecommons.org/ns#jurisdiction
+<http://creativecommons.org/ns#jurisdiction> rdf:type owl:ObjectProperty ;
+                                             rdfs:label "jurisdiction"@en-us .
+
+
+###  http://creativecommons.org/ns#legalcode
+<http://creativecommons.org/ns#legalcode> rdf:type owl:ObjectProperty .
+
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:ObjectProperty .
+
+
+###  http://creativecommons.org/ns#permits
+<http://creativecommons.org/ns#permits> rdf:type owl:ObjectProperty ;
+                                        rdfs:label "permits"@en-us .
+
+
+###  http://creativecommons.org/ns#prohibits
+<http://creativecommons.org/ns#prohibits> rdf:type owl:ObjectProperty ;
+                                          rdfs:label "prohibits"@en-us .
+
+
+###  http://creativecommons.org/ns#requires
+<http://creativecommons.org/ns#requires> rdf:type owl:ObjectProperty ;
+                                         rdfs:label "requires"@en-us .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://cor.esipfed.org/ont/DLO_0000001
+<http://cor.esipfed.org/ont/DLO_0000001> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://purl.org/dc/terms/LicenseDocument> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-04T19:39:07Z"^^xsd:dateTime ;
+                                         rdfs:label "Data licenses"@en .
+
+
+###  http://purl.org/dc/terms/LicenseDocument
+<http://purl.org/dc/terms/LicenseDocument> rdf:type owl:Class ;
+                                           <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                           <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T20:02:20Z"^^xsd:dateTime .
+
+
+###  https://www.opendatacommons.org/licenses/by/1.0/
+<https://www.opendatacommons.org/licenses/by/1.0/> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://cor.esipfed.org/ont/DLO_0000001> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-04T19:41:31Z"^^xsd:dateTime ;
+                                                   rdfs:label "Open Data Commons Attribution License (ODC-By) v1.0"@en .
+
+
+###  https://www.opendatacommons.org/licenses/odbl/
+<https://www.opendatacommons.org/licenses/odbl/> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/DLO_0000001> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-04T19:42:34Z"^^xsd:dateTime ;
+                                                 rdfs:label "Open Data Commons Open Database License (ODbL)"@en .
+
+
+###  https://www.opendatacommons.org/licenses/pddl/1.0/
+<https://www.opendatacommons.org/licenses/pddl/1.0/> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://cor.esipfed.org/ont/DLO_0000001> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-04T19:40:11Z"^^xsd:dateTime ;
+                                                     rdfs:label "ODC Public Domain Dedication and Licence (PDDL)"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.w3.org/1999/xhtml/vocab#license
+<http://www.w3.org/1999/xhtml/vocab#license> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

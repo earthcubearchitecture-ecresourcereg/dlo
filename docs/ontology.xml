@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/dlo#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/dlo"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl2="owl:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdfs1="rdfs:"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/dlo">
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date xml:lang="en">2019-03-06T00:50:17Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">This mini-ontology contains instances for each version of the licenses from the Open Data Commons.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Licenses Ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/license"/>
+        <rdfs:range rdf:resource="http://creativecommons.org/ns#License"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/relation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_inferred -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_inferred"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
+    
+
+
+    <!-- owl:deprecated -->
+
+
+    <owl:AnnotationProperty rdf:about="owl:deprecated"/>
+    
+
+
+    <!-- rdfs:comment -->
+
+
+    <owl:AnnotationProperty rdf:about="rdfs:comment"/>
+    
+
+
+    <!-- rdfs:label -->
+
+
+    <owl:AnnotationProperty rdf:about="rdfs:label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#deprecatedOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://creativecommons.org/ns#deprecatedOn">
+        <rdfs:label xml:lang="en-us">deprecated
+		  on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#jurisdiction -->
+
+
+    <owl:ObjectProperty rdf:about="http://creativecommons.org/ns#jurisdiction">
+        <rdfs:label xml:lang="en-us">jurisdiction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#legalcode -->
+
+
+    <owl:ObjectProperty rdf:about="http://creativecommons.org/ns#legalcode"/>
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:ObjectProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://creativecommons.org/ns#permits -->
+
+
+    <owl:ObjectProperty rdf:about="http://creativecommons.org/ns#permits">
+        <rdfs:label xml:lang="en-us">permits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#prohibits -->
+
+
+    <owl:ObjectProperty rdf:about="http://creativecommons.org/ns#prohibits">
+        <rdfs:label xml:lang="en-us">prohibits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://creativecommons.org/ns#requires -->
+
+
+    <owl:ObjectProperty rdf:about="http://creativecommons.org/ns#requires">
+        <rdfs:label xml:lang="en-us">requires</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/DLO_0000001 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/DLO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-04T19:39:07Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Data licenses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LicenseDocument -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/LicenseDocument">
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T20:02:20Z</oboInOwl:creation_date>
+    </owl:Class>
+    
+
+
+    <!-- https://www.opendatacommons.org/licenses/by/1.0/ -->
+
+
+    <owl:Class rdf:about="https://www.opendatacommons.org/licenses/by/1.0/">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/DLO_0000001"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-04T19:41:31Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Open Data Commons Attribution License (ODC-By) v1.0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.opendatacommons.org/licenses/odbl/ -->
+
+
+    <owl:Class rdf:about="https://www.opendatacommons.org/licenses/odbl/">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/DLO_0000001"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-04T19:42:34Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Open Data Commons Open Database License (ODbL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.opendatacommons.org/licenses/pddl/1.0/ -->
+
+
+    <owl:Class rdf:about="https://www.opendatacommons.org/licenses/pddl/1.0/">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/DLO_0000001"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-04T19:40:11Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">ODC Public Domain Dedication and Licence (PDDL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/1999/xhtml/vocab#license -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/1999/xhtml/vocab#license"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
